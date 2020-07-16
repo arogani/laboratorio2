@@ -12,3 +12,8 @@ Y para construir el build, recueren:
 ```
 npm run build
 ```
+
+Y si da error al construir el build, correr
+```
+npm install -D babel-loader @babel/core @babel/preset-env webpack
+```
